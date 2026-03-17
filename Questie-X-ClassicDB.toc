@@ -1,0 +1,34 @@
+## Interface: 11503
+## Interface-Classic: 11503
+## Title: |cFF5EBAF3Questie|r|cFFDAFAFD-X|r |cFF00FF00Classic Database|r
+## Notes: Quest, NPC, Object and Item database for Classic Era 1.14.x
+## Author: Questie Team
+## Version: 1.1.6
+## Dependencies: Questie-X
+## X-DB-Flavor: ClassicDB
+
+# Raw data tables
+Database\Classic\classicQuestDB.lua
+Database\Classic\classicNpcDB.lua
+Database\Classic\classicObjectDB.lua
+Database\Classic\classicItemDB.lua
+
+# XP data
+Database\QuestXP\xpDB-classic.lua
+
+# Expansion corrections
+Database\Corrections\classicQuestFixes.lua
+Database\Corrections\classicNPCFixes.lua
+Database\Corrections\classicItemFixes.lua
+Database\Corrections\classicObjectFixes.lua
+Database\Corrections\Automatic\classicQuestReputationFixes.lua
+Database\Corrections\Automatic\itemStartFixes.lua
+
+# Localization lookups
+Localization\lookups\Classic\lookupItems\lookupItems.xml
+Localization\lookups\Classic\lookupNpcs\lookupNpcs.xml
+Localization\lookups\Classic\lookupObjects\lookupObjects.xml
+Localization\lookups\Classic\lookupQuests\lookupQuests.xml
+
+# Plugin loader (must be last)
+Loader.lua
