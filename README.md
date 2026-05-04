@@ -28,8 +28,6 @@ Interface/AddOns/
 
 > **Upgrading from an older Questie fork?** Delete your old `Questie` / `Questie-335` / `PE-Questie` folder from `Interface/AddOns/` and remove any `Questie*.lua` files from `WTF/Account/<name>/SavedVariables/` before installing. The old architecture is not compatible with Questie-X.
 
-> **Turtle WoW players:** This plugin targets Interface `11200`. If you see a warning on the character select screen that the addon is out of date, enable **"Load out of date AddOns"** — this is standard practice for all addons on Turtle WoW and will not cause any issues.
-
 ---
 
 ## What is Included
